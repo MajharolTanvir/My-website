@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
 * {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: 0;
 }
 
-.hero_part {
-    margin-top: 100px;
+.contect-data {
+    background: #fff;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.contect-data a {
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contect-data img {
+    width: 30px;
+    height: 25px;
+    margin: 10px;
+}
+
+.contect-data p {
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 15px;
 }
